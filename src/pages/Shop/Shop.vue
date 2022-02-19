@@ -1,6 +1,6 @@
 <template>
   <div>
-    <ShopHeader/>
+    <ShopHeader></ShopHeader>
     <div class="tab">
       <div class="tab-item">
         <router-link to="/shop/goods" replace>点餐</router-link>
@@ -32,7 +32,7 @@
 </script>
 
 <style lang="stylus" rel="stylesheet/stylus">
-  @import "../../common/stylus/mixins.styl"
+  @import "../../common/stylus/mixins.stylus"
   .tab
     height 40px
     line-height 40px
